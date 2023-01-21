@@ -6,7 +6,7 @@ public class Calculate {
 	// ATTRIBUTS
 	// ---------------------------------------------------------------------------
 
-	private double result = 0;
+	private float result = 0;
 
 	// ---------------------------------------------------------------------------
 	// METHODES
@@ -18,7 +18,7 @@ public class Calculate {
 	 * @param operator => operator.getValue
 	 * @param number2
 	 */
-	public void withTwoNumber(double number1, char operator, double number2) {
+	public void withTwoNumber(float number1, char operator, float number2) {
 		  switch (operator) {
 	        case '+':
 	            result = number1 + number2;
@@ -38,7 +38,7 @@ public class Calculate {
 	 * @param number
 	 * @param operator
 	 */
-	public void withOneNumber(double number, char operator) {
+	public void withOneNumber(float number, char operator) {
 		  switch (operator) {
 	        case '+':
 	            result += number;
@@ -58,11 +58,11 @@ public class Calculate {
 	// GETTER & SETTER
 	// ---------------------------------------------------------------------------
 	
-	public long getResult() {
+	public float getResult() {
 		return result;
 	}
 
-	public void setResult(long result) {
+	public void setResult(float result) {
 		this.result = result;
 	}
 	

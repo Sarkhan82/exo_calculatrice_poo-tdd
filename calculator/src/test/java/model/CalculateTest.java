@@ -5,7 +5,12 @@ import junit.framework.TestCase;
 public class CalculateTest extends TestCase {
 
 	public void testWithTwoNumber() {
-		fail("Not yet implemented");
+		Calculate c = new Calculate();
+		Number n1 = new Number(1);
+		Number n2 = new Number(4);
+		Operator o = new Operator("+");
+		c.withTwoNumber(n1.getValue(), o.getValue(), n2.getValue());
+		assertEquals(5, c.getResult());
 	}
 
 	public void testWithOneNumber() {

@@ -4,7 +4,7 @@ public class Operator {
 	// ---------------------------------------------------------------------------
 	// ATTRIBUTS
 	// ---------------------------------------------------------------------------
-	private String value = "";
+	private char value;
 	
 	// ---------------------------------------------------------------------------
 	// CONSTRUCTEUR
@@ -18,13 +18,13 @@ public class Operator {
     // GETTER & SETTER
     // ---------------------------------------------------------------------------
 
-	public String getValue() {
+	public char getValue() {
 		return value;
 	}
 
 	public void setValue(String value) {
-		if (value.matches("^[+\\-=*/]$")) {
-		this.value = value;
+		if (value.matches("^[+\\-*/]$")) {
+		this.value = value.charAt(0);
 		}
 		else {
 			System.err.println("Mauvais caractère");

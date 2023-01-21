@@ -10,7 +10,7 @@ public class NumberTest extends TestCase {
 	
 	/**
 	 * Doit créer un objet Number en donnant le paramètre number à l'attrabut value
-	 * la valeur ne peut pas être null et doit être un int
+	 * la valeur ne peut pas être null et doit être un double
 	 */
 	
 	public void testNumber() {
