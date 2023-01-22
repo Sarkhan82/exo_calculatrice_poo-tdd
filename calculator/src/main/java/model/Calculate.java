@@ -66,10 +66,19 @@ public class Calculate {
 	// GETTER & SETTER
 	// ---------------------------------------------------------------------------
 	
+	/**
+	 * Retorune la valeur de l'attribut result
+	 * permet d'afficher le résultat des calculs
+	 * @return
+	 */
 	public double getResult() {
 		return result;
 	}
 
+	/**
+	 * Permet de modifier la valeur de l'attribut résult
+	 * @param result
+	 */
 	public void setResult(double result) {
 		this.result = result;
 	}
