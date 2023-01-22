@@ -1,14 +1,15 @@
 package controler;
 
-
 /**
- * Hello world!
+ * Lance l'application
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+public class App {
+	Calculate c = new Calculate();
+	Userinput ui = new UserInput();
+	
+	
+	public static void main(String[] args) {
+
+	}
 }
