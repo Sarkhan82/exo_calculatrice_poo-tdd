@@ -5,13 +5,13 @@ public class Number {
 	// ---------------------------------------------------------------------------
 	// ATTRIBUTS
 	// ---------------------------------------------------------------------------
-	private float value = 0;
+	private double value = 0;
 
 	// ---------------------------------------------------------------------------
 	// CONSTRUCTEUR
 	// ---------------------------------------------------------------------------
 	
-	public Number(float number) {
+	public Number(double number) {
 		value = number;
 	}
 
@@ -19,11 +19,11 @@ public class Number {
 	// GETTER & SETTER
 	// ---------------------------------------------------------------------------
 
-	public int getValue() {
+	public double getValue() {
 		return value;
 	}
 
-	public void setValue(float value) {
+	public void setValue(double value) {
 		this.value = value;
 	}
 
