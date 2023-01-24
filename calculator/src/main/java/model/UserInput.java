@@ -35,12 +35,12 @@ public class UserInput {
      * N'accepte que des opérateurs ou indique à l'utilisateur une erreur
      * @return
      */
-    public char charInput() {
+    public String stringInput() {
         while (true) {
             try {
                 String input = scanner.nextLine();
                 if (input.matches("[+\\-/*]")) {
-                    return input.charAt(0);
+                    return input;
                 } else {
                     System.out.println("La valeur saisie n'est pas une opération valide (+, -, /, *), veuillez saisir une opération valide");
                 }
